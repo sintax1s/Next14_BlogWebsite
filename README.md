@@ -4,6 +4,13 @@
 
 Welcome to the Blog Adaptive Website project built with Next.js! This web application offers a seamless user experience across various devices by adapting its layout and functionality to suit different screen sizes.
 
+You can check what i've made here =========> [DEMO LINK](https://next14-blog-website.vercel.app/)
+
+if you want to login as an admin, here is his email and password (Do not delete all users, please :c)
+
+Email: Admin@gmail.com
+Password: MyNameIsAdmin
+
 ### Pages
 
 - **Home**: The landing page welcomes users and provides an overview of the website.

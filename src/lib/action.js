@@ -57,10 +57,14 @@ export const addUser = async (previousState, formData) => {
       return {error: 'User with this email already in database'};
     }
 
+    const salt = await bcrypt.genSalt(10);
+
+    const hashedPassword = await bcrypt.hash(password, salt);
+
     const newUser = new User({
       username, 
       email,
-      password, 
+      hashedPassword, 
       img,
       isAdmin,
     })
