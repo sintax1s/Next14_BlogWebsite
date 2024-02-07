@@ -64,7 +64,7 @@ export const addUser = async (previousState, formData) => {
     const newUser = new User({
       username, 
       email,
-      hashedPassword, 
+      password: hashedPassword, 
       img,
       isAdmin,
     })
