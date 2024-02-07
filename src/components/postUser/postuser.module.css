@@ -1,0 +1,16 @@
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.detailText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.detailTitle {
+  color: gray;
+  font-weight: 500;
+}

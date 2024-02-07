@@ -1,0 +1,49 @@
+.imageContainer {
+  flex: 1;
+  position: relative;
+  height: 700px;
+  pointer-events: none;
+}
+
+@media (max-width: 1200px) {
+  .imageContainer {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .imageContainer {
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .heroImage {
+    position: fixed !important;
+    top: 15% !important;
+    width: 500px !important;
+    left: auto !important;
+    z-index: -1;
+    opacity: 0.1;
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 536px) {
+  .heroImage {
+    width: 100% !important;
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .heroImage {
+    height: 400px !important;
+  }
+}

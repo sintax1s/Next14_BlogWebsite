@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  max-width: 500px;
+  background-color: var(--bgSoft);
+  padding: 40px;
+  width: 100%;
+  border-radius: 5px;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.input {
+  padding: 20px;
+  background-color: var(--bg);
+  color: var(--textColor);
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--btn);
+  color: var(--textColor);
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  color: red;
+}

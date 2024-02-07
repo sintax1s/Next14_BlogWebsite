@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.formContainer {
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input, .textArea {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--bgSoft);
+  border: none;
+  border-radius: 5px;
+  color: var(--text);
+}
+
+.textArea {
+  resize: none;
+}
+
+.button {
+  padding: 20px 0;
+  background-color: var(--btn);
+  color: var(--text);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .formContainer {
+    flex: none;
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .formContainer {
+    width: 100%;
+  }
+}
