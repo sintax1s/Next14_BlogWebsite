@@ -1,10 +1,12 @@
 {
-  "name": "next14starter",
+  "name": "next14-blog-website",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "gh-pages -d dist",
     "start": "next start",
     "lint": "next lint"
   },
