@@ -62,9 +62,9 @@ export const addUser = async (previousState, formData) => {
     const hashedPassword = await bcrypt.hash(password, salt);
 
     const newUser = new User({
-      username, 
+      username,
       email,
-      password: hashedPassword, 
+      password: hashedPassword,
       img,
       isAdmin,
     })
